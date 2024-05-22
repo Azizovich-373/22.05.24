@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .container {
+            max-width: 300px;
+            margin: 0 auto;
+            margin-top: 300px;
+        }
+        button {
+            border: none;
+        }
+        .box2 button{
+            width: 100px;
+            height: 75px;
+        }
+        .number {
+            width: 100px;
+            text-align: center;
+        }
+        .box1 {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 50px;
+        }
+        .box2 {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+    <title>20.05.24</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box1">
+            <button class="mines"><img width="80px" src="https://avatars.mds.yandex.net/i?id=9b112b28e3f02272180baf11b02f75f5dd799dad-10697673-images-thumbs&n=13" alt=""></button>
+            <button class="number">0</button>
+            <button class="plus"><img width="80px" src="https://avatars.mds.yandex.net/i?id=e067d5d82fc09700a37f59631edefb7cbe85c9bf-10997011-images-thumbs&n=13" alt=""></button>
+        </div>
+        <div class="box2">
+            <button class="random">random</button>
+            <button class="reset">reset</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
